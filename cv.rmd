@@ -162,6 +162,8 @@ Posters  {data-icon=calendar-o}
 CV %<>% print_section('posters')
 ```
 
+<br>
+
 Conferences Attended  {data-icon=users}
 --------------------------------------------------------------------------------
 
@@ -171,6 +173,6 @@ CV %<>% print_section('conference')
 
 
 ```{r}
-CV %<>% print_links()
+# CV %<>% print_links()
 ```
 
