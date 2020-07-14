@@ -48,7 +48,7 @@ Aside
 ```{r}
 # Build interactive network of positions colored by section
 # and connected if they occurred in the same year
-datadrivencv::build_network_logo(CV$entries_data)
+# datadrivencv::build_network_logo(CV$entries_data)
 ```
 
 
@@ -81,11 +81,11 @@ CV %>% print_skill_bars()
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
+<!-- Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). -->
 
-The source code is available [on github.com/nstrayer/cv](https://github.com/nstrayer/datadrivencv).
+<!--The source code is available [on github.com/nstrayer/cv](https://github.com/nstrayer/datadrivencv). -->
 
-Last updated on `r Sys.Date()`.
+Last updated on `r Sys.Date()`
 
 
 
@@ -130,11 +130,11 @@ CV %<>% print_section('publications')
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
-::: aside
+<!-- ::: aside -->
 ```{r}
-CV %<>% print_text_block('teaching_experience_aside')
+# CV %<>% print_text_block('teaching_experience_aside')
 ```
-:::
+<!-- ::: -->
 
 ```{r}
 CV %<>% print_section('teaching_positions')
